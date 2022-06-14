@@ -87,7 +87,7 @@ function enkripsi($plainText, $key)
             $string.= substr($alfabetSatu, $posisi, 1);
         }
  
-        return $string
+        return $string;
     }
 
 //---- Enkripsi Caesar Chipper
